@@ -8,6 +8,19 @@
     tools:context=".activity_signup">
 
     <TextView
+        android:id="@+id/tv_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호 확인"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_4"
+        app:layout_constraintVertical_bias="0.508" />
+
+    <TextView
         android:id="@+id/tv_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -115,11 +128,26 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_"
         app:layout_constraintVertical_bias="0.039" />
 
+    <EditText
+        android:id="@+id/et_passward2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=" 비밀번호 확인"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_"
+        app:layout_constraintVertical_bias="0.321" />
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="인증번호"
+        android:text="중복확인"
         android:textSize="12sp"
         app:iconSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -140,4 +168,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_passward"
         app:layout_constraintVertical_bias="0.668" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/et_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_5"
+        app:layout_constraintTop_toBottomOf="@+id/tv_4"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
