@@ -2,185 +2,206 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/ㅅ"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/rectangle_235"
     tools:context=".activity_signup">
 
-    <TextView
-        android:id="@+id/tv_6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="비밀번호 확인"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.135"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_4"
-        app:layout_constraintVertical_bias="0.508" />
 
     <TextView
         android:id="@+id/tv_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="193dp"
+        android:layout_marginBottom="276dp"
         android:text="신입부원 여러분!"
+        android:textColor="#EFEDFF"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/tv_2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.163"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <TextView
-        android:id="@+id/tv_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="인터페이스"
-        android:textSize="26sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.151"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.167" />
-
-    <TextView
-        android:id="@+id/tv_3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="에 오신것을"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/tv_2"
-        app:layout_constraintTop_toBottomOf="@+id/tv_1"
-        app:layout_constraintVertical_bias="0.013" />
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/et_passward"
+        app:layout_constraintEnd_toEndOf="@+id/et_passward"
+        app:layout_constraintStart_toStartOf="@+id/tv_2" />
 
     <TextView
         android:id="@+id/tv_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="236dp"
+        android:layout_marginBottom="214dp"
         android:text="환영합니다!"
+        android:textColor="#EFEDFF"
         android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/et_passward"
+        app:layout_constraintEnd_toEndOf="@+id/et_passward" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="240dp"
+        android:text="인터페이스"
+        android:textColor="#657EFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/et_passward"
+        app:layout_constraintEnd_toEndOf="@+id/et_passward" />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="240dp"
+        android:text="에 오신것을"
+        android:textColor="#EFEDFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/et_passward"
+        app:layout_constraintEnd_toEndOf="@+id/et_passward" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineVerticalCenter"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="378dp"
+        android:layout_marginBottom="891dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintGuide_percent="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_2"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <TextView
         android:id="@+id/tv_5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="290dp"
+        android:layout_marginBottom="110dp"
         android:text="이메일"
+        android:textColor="#657EFF"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.118"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_4"
-        app:layout_constraintVertical_bias="0.163" />
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/et_passward"
+        app:layout_constraintEnd_toEndOf="@+id/et_passward" />
 
     <TextView
-        android:id="@+id/tv_"
+        android:id="@+id/tv_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="276dp"
+        android:layout_marginBottom="10dp"
         android:text="비밀번호"
+        android:textColor="#657EFF"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.122"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_4"
-        app:layout_constraintVertical_bias="0.342" />
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/et_passward"
+        app:layout_constraintEnd_toEndOf="@+id/et_passward" />
 
     <EditText
         android:id="@+id/et_email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="54dp"
+        android:background="@drawable/edit_text"
+        android:breakStrategy="simple"
         android:ems="10"
-        android:hint=" 이메일"
+        android:hint="이메일"
         android:inputType="textEmailAddress"
+        android:paddingStart="16dp"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.218"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_5"
-        app:layout_constraintVertical_bias="0.029999971" />
+        android:textStyle="bold"
+        android:textColor="#242425"
+        app:layout_constraintBottom_toTopOf="@+id/et_passward"
+        app:layout_constraintEnd_toEndOf="@+id/et_passward" />
 
     <EditText
         android:id="@+id/et_passward"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="335dp"
+        android:layout_height="45dp"
+        android:background="@drawable/edit_text"
         android:ems="10"
-        android:hint=" 비밀번호"
+        android:hint="비밀번호"
         android:inputType="textPassword"
+        android:paddingStart="16dp"
         android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#242425"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.218"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_"
-        app:layout_constraintVertical_bias="0.039" />
+        app:layout_constraintEnd_toStartOf="@+id/guidelineVerticalCenter"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/guidelineVerticalCenter"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54" />
 
     <EditText
         android:id="@+id/et_passward2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="335dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text"
         android:ems="10"
-        android:hint=" 비밀번호 확인"
+        android:hint="비밀번호 확인"
         android:inputType="textPassword"
+        android:textColor="#242425"
+        android:paddingStart="16dp"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.218"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_"
-        app:layout_constraintVertical_bias="0.321" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/et_passward"
+        app:layout_constraintTop_toBottomOf="@+id/et_passward" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginBottom="54dp"
+        android:background="@drawable/button_light_small"
         android:text="중복확인"
+        android:textColor="#EFEDFF"
         android:textSize="12sp"
         app:iconSize="18dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
-        app:layout_constraintStart_toEndOf="@+id/et_email"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.44" />
+        app:layout_constraintBottom_toTopOf="@+id/et_passward"
+        app:layout_constraintEnd_toEndOf="@+id/et_passward" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
         android:layout_width="331dp"
         android:layout_height="59dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/button_gray_big"
         android:text="회원가입"
+        android:textColor="#EFEDFF"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_passward"
-        app:layout_constraintVertical_bias="0.668" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/et_passward"
+        app:layout_constraintTop_toBottomOf="@+id/et_passward" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="88dp"
-        android:layout_marginEnd="237dp"
-        android:layout_marginBottom="14dp"
-        app:layout_constraintBottom_toTopOf="@+id/et_email"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/tv_5"
-        app:layout_constraintTop_toBottomOf="@+id/tv_4"
-        app:layout_constraintVertical_bias="0.0" />
+        android:id="@+id/textView3"
+        android:layout_width="183dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="17dp"
+        android:gravity="right"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/et_passward"
+        app:layout_constraintEnd_toEndOf="@+id/et_passward" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="183dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="117dp"
+        android:gravity="right"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/et_passward"
+        app:layout_constraintEnd_toEndOf="@+id/et_passward" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

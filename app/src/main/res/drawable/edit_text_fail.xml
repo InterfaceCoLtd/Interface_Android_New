@@ -1,0 +1,8 @@
+<!-- res/drawable/edittext_rounded_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#1FFFFFFF" /> <!-- 배경색 (빨간색) -->
+    <corners android:radius="10dp" /> <!-- 테두리의 반지름 -->
+    <stroke
+        android:width="2dp"
+        android:color="#FF603D" />
+</shape>

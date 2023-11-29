@@ -4,32 +4,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/rectangle_235"
     tools:context=".activity_finish_signup">
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_finish_signup"
         android:layout_width="323dp"
         android:layout_height="59dp"
         android:text="로그인하러 가기"
+        android:textColor="#EFEDFF"
+        android:textStyle="bold"
+        android:background="@drawable/button_light_big"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.746" />
+        app:layout_constraintVertical_bias="0.811" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="234dp"
-        android:layout_height="355dp"
-        android:layout_marginStart="13dp"
-        android:layout_marginTop="160dp"
-        android:layout_marginBottom="216dp"
+        android:layout_width="260dp"
+        android:layout_height="411dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/interfacelogo" />
+        app:srcCompat="@drawable/interface_logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="416dp"
+        android:text="인터페이스 36기"
+        android:textColor="#657EFF"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bt_finish_signup"
+        app:layout_constraintEnd_toEndOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="383dp"
+        android:text="부원이 된걸 환영해요"
+        android:textColor="#657EFF"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bt_finish_signup"
+        app:layout_constraintEnd_toEndOf="@+id/imageView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
